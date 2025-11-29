@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1764186260" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/conex.dcp">
+  <File Type="PA-TCL" Name="conex.tcl"/>
+  <File Type="REPORTS-TCL" Name="conex_reports.tcl"/>
+  <File Type="RDS-RDS" Name="conex.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="conex_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="conex_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="conex_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="conex.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="conex_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="conex_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/ALUDecoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/ALUDecoder.v"/>
+        <Attr Name="ImportTime" Val="1761950526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PCplus.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/PCplus.v"/>
+        <Attr Name="ImportTime" Val="1762005265"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PCtarget.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/PCtarget.v"/>
+        <Attr Name="ImportTime" Val="1762005745"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/alu.v"/>
+        <Attr Name="ImportTime" Val="1762003450"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/datamem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/datamem.v"/>
+        <Attr Name="ImportTime" Val="1762273447"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/extend.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/extend.v"/>
+        <Attr Name="ImportTime" Val="1762007875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/main.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/main.v"/>
+        <Attr Name="ImportTime" Val="1764081374"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/maindecoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/maindecoder.v"/>
+        <Attr Name="ImportTime" Val="1761951792"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mem_1.v"/>
+        <Attr Name="ImportTime" Val="1764079433"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mem_2.v"/>
+        <Attr Name="ImportTime" Val="1764079470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mem_3.v"/>
+        <Attr Name="ImportTime" Val="1764079500"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mem_4.v"/>
+        <Attr Name="ImportTime" Val="1764079503"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_principal.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mem_principal.v"/>
+        <Attr Name="ImportTime" Val="1762273238"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mux.v"/>
+        <Attr Name="ImportTime" Val="1762004110"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/mux4.v"/>
+        <Attr Name="ImportTime" Val="1762004770"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/muxm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/muxm.v"/>
+        <Attr Name="ImportTime" Val="1762004633"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/regfile.v"/>
+        <Attr Name="ImportTime" Val="1764081443"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/regparalelo2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/regparalelo2.v"/>
+        <Attr Name="ImportTime" Val="1763162831"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ucontrol.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/imports/new/ucontrol.v"/>
+        <Attr Name="ImportTime" Val="1761952228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/conex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/sources_1/imports/sources_1/new/conex.v"/>
+        <Attr Name="ImportTime" Val="1764081530"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="conex"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/ppe_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../conexartyz7/conexartyz7.srcs/constrs_1/imports/new/ppe_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1764081361"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/conex.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

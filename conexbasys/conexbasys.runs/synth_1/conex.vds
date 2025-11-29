@@ -1,0 +1,304 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Nov 26 14:44:22 2025
+# Process ID         : 13960
+# Current directory  : C:/vivadopr/conexbasys/conexbasys.runs/synth_1
+# Command line       : vivado.exe -log conex.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conex.tcl
+# Log file           : C:/vivadopr/conexbasys/conexbasys.runs/synth_1/conex.vds
+# Journal file       : C:/vivadopr/conexbasys/conexbasys.runs/synth_1\vivado.jou
+# Running On         : Saga
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16473 MB
+# Swap memory        : 15569 MB
+# Total Virtual      : 32042 MB
+# Available Virtual  : 16887 MB
+#-----------------------------------------------------------
+source conex.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/vivadopr/conexbasys/conexbasys.srcs/utils_1/imports/synth_1/conex.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/vivadopr/conexbasys/conexbasys.srcs/utils_1/imports/synth_1/conex.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top conex -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21044
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1191.703 ; gain = 494.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'conex' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/conex.v:23]
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/main.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ucontrol' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/ucontrol.v:24]
+INFO: [Synth 8-6157] synthesizing module 'maindecoder' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/maindecoder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'maindecoder' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/maindecoder.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ALUDecoder' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/ALUDecoder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ALUDecoder' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/ALUDecoder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ucontrol' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/ucontrol.v:24]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regparalelo2' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/regparalelo2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'regparalelo2' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/regparalelo2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PCplus' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/PCplus.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PCplus' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/PCplus.v:22]
+INFO: [Synth 8-6157] synthesizing module 'mem_principal' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_principal.v:3]
+	Parameter N bound to: 6 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mem_1' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'mem_1' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'mem_2' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem_2' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mem_3' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_3.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem_3' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_3.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mem_4' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem_4' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mem_principal' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mem_principal.v:3]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/regfile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'extend' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/extend.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'extend' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/extend.v:4]
+INFO: [Synth 8-6157] synthesizing module 'muxm' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/muxm.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'muxm' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/muxm.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/alu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PCtarget' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/PCtarget.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PCtarget' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/PCtarget.v:22]
+INFO: [Synth 8-6157] synthesizing module 'datamem' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/datamem.v:22]
+	Parameter N bound to: 5 - type: integer 
+	Parameter M bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'datamem' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/datamem.v:22]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mux4.v:24]
+INFO: [Synth 8-226] default block is never used [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mux4.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/mux4.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'main' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/main.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'conex' (0#1) [C:/vivadopr/conexbasys/conexbasys.srcs/sources_1/imports/new/conex.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1298.117 ; gain = 600.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1298.117 ; gain = 600.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1298.117 ; gain = 600.844
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1298.117 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'BTN[0]'. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTN[0]'. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/vivadopr/conexbasys/conexbasys.srcs/constrs_1/imports/new/ppe_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/conex_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/conex_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1354.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1354.379 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1354.379 ; gain = 657.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1354.379 ; gain = 657.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1354.379 ; gain = 657.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1354.379 ; gain = 657.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
++---RAMs : 
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 4     
+	   4 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+RAM Pipeline Warning: Read Address Register Found For RAM cpu/regfile/regs_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM cpu/regfile/regs_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6430] The Block RAM "conex/cpu/regfile/regs_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6430] The Block RAM "conex/cpu/regfile/regs_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+INFO: [Synth 8-3971] The signal "conex/cpu/regfile/regs_reg" was recognized as a true dual port RAM template.
+RAM Pipeline Warning: Read Address Register Found For RAM cpu/regfile/regs_reg. We will not be able to pipeline it. This may degrade performance. 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1354.379 ; gain = 657.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1503.723 ; gain = 806.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1503.723 ; gain = 806.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1513.281 ; gain = 816.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |IBUF |     2|
+|3     |OBUF |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1748.488 ; gain = 994.953
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1748.488 ; gain = 1051.215
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1748.488 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1748.488 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 3d8f5a8e
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 9 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1748.488 ; gain = 1239.230
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1748.488 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/vivadopr/conexbasys/conexbasys.runs/synth_1/conex.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file conex_utilization_synth.rpt -pb conex_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 26 14:44:56 2025...
