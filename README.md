@@ -1,5 +1,7 @@
 # RISC-V Processor on FPGA
 
+English | [Español](README.es.md)
+
 32-bit RISC-V processor written in Verilog, in two microarchitectures: single-cycle and 5-stage pipeline. Developed for the Computer Architecture course at Universidad Industrial de Santander (UIS) and targeted at Digilent Artix-7 boards (Basys 3 / Nexys 4 DDR).
 
 ## Designs
